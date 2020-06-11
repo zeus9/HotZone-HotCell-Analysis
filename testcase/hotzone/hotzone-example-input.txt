@@ -1,0 +1,3 @@
+test/output hotzoneanalysis src/resources/point-hotzone.csv src/resources/zone-hotzone.csv
+
+~/Projects/spark-2.4.5-bin-hadoop2.7/bin/spark-submit target/scala-2.11/CSE512-Hotspot-Analysis-Template-assembly-0.1.0.jar test/output hotzoneanalysis src/resources/point-hotzone.csv src/resources/zone-hotzone.csv
